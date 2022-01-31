@@ -17,10 +17,10 @@ function Header() {
           <div className="flex flex-grow justify-evenly max-w-2xl mt-8">
               <HeaderItem title="HOME" Icon={HomeIcon}/>
               <HeaderItem title="TRENDING" Icon={LightningBoltIcon}/>
-              <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon}/>
-              <HeaderItem title="COLLECTIONS" Icon={CollectionIcon}/>
-              <HeaderItem title="SEARCH" Icon={SearchIcon}/>
-              <HeaderItem title="ACCOUNT" Icon={UserIcon}/>
+              <HeaderItem title="VERIFICADOS" Icon={BadgeCheckIcon}/>
+              <HeaderItem title="COLEÇÕES" Icon={CollectionIcon}/>
+              <HeaderItem title="PESQUISAR" Icon={SearchIcon}/>
+              <HeaderItem title="CONTA" Icon={UserIcon}/>
           </div>
           <Image
             className="object-contain cursor-pointer"
